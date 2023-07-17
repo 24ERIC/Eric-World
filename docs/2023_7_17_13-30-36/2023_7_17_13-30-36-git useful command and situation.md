@@ -1,4 +1,3 @@
-title: git useful command and situation
 # title: 
 - how to deal with conflict 
 
