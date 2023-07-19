@@ -1,2 +1,2 @@
-title: tryhackme - Burp Suite: The Basics - An introduction to using Burp Suite for Web Application pentesting
-# tryhackme - Burp Suite: The Basics - An introduction to using Burp Suite for Web Application pentesting
+title: 
+# 
