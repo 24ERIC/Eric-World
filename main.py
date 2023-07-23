@@ -33,7 +33,7 @@ def create_new_folder_file_in_database(title):
     </head>
     <body>
         <!-- Profit! -->
-        <zero-md src=" """ + f"./{formatted_time}-{title}.md" + """ "></zero-md>
+        <zero-md src=" """ + f"./{formatted_time}.md" + """ "></zero-md>
     </body>
     </html>
     """
