@@ -95,18 +95,7 @@ def add_code_to_html(html_file_path, code):
         else:
             print('Error: Comment not found in the HTML file.')
 
-def count_characters():
-    with open(filepath, 'r', encoding='utf-8') as file:
-        content = file.read()
-
-        # Count the characters
-        character_count = len(content)
-
-    return character_count
-
-
 def modify_html_number():
-    number_to_add = count_characters()
 
     with open("index.html", 'r', encoding='utf-8') as file:
         content = file.read()
@@ -121,7 +110,7 @@ def modify_html_number():
         current_number = int(span_element.string)
 
         # Calculate the new number
-        new_number = current_number + number_to_add
+        new_number = current_number + 1
 
         # Update the number
         span_element.string = str(new_number)
