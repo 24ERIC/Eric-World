@@ -47,8 +47,8 @@ def extract_title_from_new_article():
     with open("new_article.md", 'r') as file:
         first_line = file.readline().strip()
 
-        if first_line.startswith("title: "):
-            title = first_line[len("title: "):]
+        if first_line.startswith("# title: "):
+            title = first_line[len("# title: "):]
             return title
 
 
@@ -68,7 +68,6 @@ def transfer_content_from_new_article_to_database():
 
 def reset_new_article():
     with open("new_article.md", 'w') as file:
-        file.write("title: \n")
         file.write("# title: ")
 
 

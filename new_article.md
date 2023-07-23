@@ -1,2 +1,1 @@
-title: 
-# title: 
+# title: CSC263 Lecture 9 Prepare Quiz
