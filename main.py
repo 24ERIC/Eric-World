@@ -38,7 +38,7 @@ def create_new_folder_file_in_database(title):
     </html>
     """
 
-    with open(f"{folder_path}/{formatted_time}-{title}.html", 'w') as file:
+    with open(f"{folder_path}/{formatted_time}.html", 'w') as file:
         file.write(content)
 
 
